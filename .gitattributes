@@ -1,0 +1,11 @@
+# Normalizar saltos de línea para el código XML
+*.twb text eol=lf
+
+# Tratar los archivos empaquetados como binarios (no intentar comparar cambios en texto)
+*.twbx binary
+
+# Ocultar o redefinir la detección del XML generado por Tableau
+*.twb linguist-generated=true
+
+# OPCIONAL: Si no quieres que cuente como XML en el gráfico de lenguajes de GitHub:
+# *.twb linguist-detectable=false
